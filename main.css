@@ -10,6 +10,46 @@ body {
     background-color: #0D0805;
 }
 
+/* header section */
+.header-title-one {
+    position: relative;
+}
+.header-title-one p {
+    position: absolute;
+    width: 98px;
+    height: 18px;
+    left: 30px;
+    top: 30px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 90.02%;
+    
+    letter-spacing: -0.045em;
+
+    color: #FFFFFF;
+}
+.header-title-one h1 {
+    position: absolute;
+    width: 52px;
+    height: 18px;
+    left: 73px;
+    top: 30px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 90.02%;
+    /* identical to box height, or 18px */
+
+    letter-spacing: -0.045em;
+
+    color: #FFFFFF;
+
+}
 .header-title-two {
     color: #FFFFFF;    
 }
@@ -73,18 +113,47 @@ body {
 
     opacity: 0.85;
 }
+
+/* gradient section */
+
+/* @property --rotate {
+    syntax: "<angle>";
+    initial-value: 132deg;
+    inherits: false;
+} */
 .circle-1 {
     position: absolute;
     width: 2200px;
     height: 1020px;
     left: -109.53px;
-    top: 512px;
+    top: 450px;
     border-radius: 50%;
     z-index: -1;
 
     background: rgba(34, 153, 84, 0.8);
     filter: blur(110px);
 }
+/* .circle-1::before {
+    content: "";
+    width: 104%;
+    height: 102%;
+    border-radius: 50%;
+    background-image: linear-gradient(var(--rotate), #229954, #46b976);
+      position: absolute;
+      z-index: -1;
+      top: -1%;
+      left: -2%;
+      animation: spin 3s linear infinite;
+} */
+/* @keyframes spin {
+    0% {
+        --rotate: 0deg;
+    }
+    100% {
+        --rotate: 360deg;
+    }
+} */
+  
 .circle-2 {
     position: absolute;
     width: 2200px;
@@ -100,12 +169,13 @@ body {
 }
 .circle-3 {
     position: absolute;
-    width: 1018.58px;
+    width: 2400.58px;
     height: 1020px;
     left: -218.73px;
-    top: 828.37px;
+    top: 810.37px;
+    border-radius: 50%;
 
     background: #DFDFDF;
-    filter: blur(57px);
+    filter: blur(110px);
     transform: rotate(3.5deg);
 }
