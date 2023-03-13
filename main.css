@@ -40,7 +40,7 @@ body {
 
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 20px;
     line-height: 90.02%;
     /* identical to box height, or 18px */
@@ -50,10 +50,41 @@ body {
     color: #FFFFFF;
 
 }
+.header-nav {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 90.02%;
+    /* identical to box height, or 11px */
+
+    letter-spacing: -0.005em;
+
+    color: #606055;
+
+    /* opacity: 0.85; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 40px;
+}
+.line-one {
+    /* position: absolute;
+    width: 630px;
+    height: 0px;
+    right: -275px;
+    top: 400px;
+
+    opacity: 0.4;
+    color: #FFFFFF;
+    outline: 0.5px solid #FFFFFF;
+    transform: rotate(90deg); */
+}
 .header-title-two {
     color: #FFFFFF;    
 }
-
 .title-two-top {
     position: absolute;
     width: 157px;
@@ -107,20 +138,47 @@ body {
     line-height: 110%;
     letter-spacing: 0.05em;
     /* or 14px */
+    color: #FFFFFF;
 
+    opacity: 0.85;
+}
+.climate-policy p{
+    position: absolute;
+    width: 101px;
+    height: 14px;
+    right: 52px;
+    top: 30px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 90.02%;
+    /* or 14px */
+
+    letter-spacing: -0.045em;
 
     color: #FFFFFF;
 
+    opacity: 0.85;
+} 
+
+.climate-policy i {
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 25px;
+    right: 30px;
+    top: 25px;
     opacity: 0.85;
 }
 
 /* gradient section */
 
-/* @property --rotate {
+@property --rotate {
     syntax: "<angle>";
     initial-value: 132deg;
     inherits: false;
-} */
+}
 .circle-1 {
     position: absolute;
     width: 2200px;
@@ -133,7 +191,7 @@ body {
     background: rgba(34, 153, 84, 0.8);
     filter: blur(110px);
 }
-/* .circle-1::before {
+.circle-1::before {
     content: "";
     width: 104%;
     height: 102%;
@@ -144,15 +202,15 @@ body {
       top: -1%;
       left: -2%;
       animation: spin 3s linear infinite;
-} */
-/* @keyframes spin {
+}
+@keyframes spin {
     0% {
         --rotate: 0deg;
     }
     100% {
         --rotate: 360deg;
     }
-} */
+}
   
 .circle-2 {
     position: absolute;
