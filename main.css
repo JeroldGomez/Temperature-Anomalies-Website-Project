@@ -13,7 +13,7 @@ body {
 .hidden-fade {
     opacity: 0;
     filter: blur(10px);
-    transition: all 500ms ease;
+    transition: all 300ms ease;
 }
 .show {
     opacity: 1;
@@ -85,17 +85,8 @@ body {
     right: 30px;
     top: 70px;
     
-    opacity: 0.4;
+    opacity: 0.1;
     border-left: 1px solid rgba(255,255,255);
-}
-.line-five {
-    position: absolute;
-    height: 1000px;
-    left: 30px;
-    top: 70px;
-    
-    opacity: 0.4;
-    border-left: 1px solid #FFFFFF;
 }
 .line-two {
     position: absolute;
@@ -104,7 +95,7 @@ body {
     top: 770px;
     
     
-    opacity: 0.4;
+    opacity: 0.1;
     border-bottom: 1px solid #FFFFFF;
 }
 .line-three {
@@ -113,7 +104,7 @@ body {
     left: 223px;
     top: 770px;
     
-    opacity: 0.4;
+    opacity: 0.1;
     border-bottom: 1px solid #FFFFFF;
 }
 .line-four {
@@ -122,10 +113,48 @@ body {
     left: 223px;
     top: 770px;
     
-    opacity: 0.4;
+    opacity: 0.1;
     border-left: 1px solid #FFFFFF;
 }
+.line-five {
+    position: absolute;
+    height: 400px;
+    left: 30px;
+    top: 70px;
+    
+    opacity: 0.1;
+    border-left: 1px solid #FFFFFF;
+}
+.line-six {
+    position: absolute;
+    height: 400px;
+    left: 30px;
+    top: 555px;
+    
+    opacity: 0.1;
+    border-left: 1px solid #FFFFFF;
+}
+.header-TA p {
+    position: absolute;
+    width: 61px;
+    height: 10px;
+    left: 0px;
+    top: 505px;
 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 90.02%;
+    /* identical to box height, or 11px */
+
+    letter-spacing: -0.045em;
+
+    color: #FFFFFF;
+
+    opacity: 0.4;
+    transform: rotate(-90deg);
+}
 .header-title-two {
     color: #FFFFFF;    
 }
@@ -241,7 +270,7 @@ body {
     background: rgba(34, 153, 84, 0.8);
     filter: blur(110px);
 }
-@property --rotate {
+/* @property --rotate {
     syntax: "<angle>";
     initial-value: 132deg;
     inherits: false;
@@ -266,7 +295,7 @@ body {
         --rotate: 360deg;
     }
 } 
-  
+   */
 .circle-2 {
     position: absolute;
     width: 2200px;
@@ -291,4 +320,16 @@ body {
     background: #DFDFDF;
     filter: blur(110px);
     transform: rotate(3.5deg);
+}
+
+/* overview */
+
+.rectangle-overview {
+    position: absolute;
+    width: 2000px;
+    height: 1374px;
+    left: 0px;
+    top: 1344px;
+
+    background: #DFDFDF;
 }
