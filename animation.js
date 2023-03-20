@@ -5,4 +5,7 @@ const observer = new IntersectionObserver((entries) => {
 })
 
 const hiddenElementsFADE = document.querySelectorAll('.hidden-fade')
+const hiddenElementsLEFT = document.querySelectorAll('.hidden-left')
+
 hiddenElementsFADE.forEach((el) => observer.observe(el))
+hiddenElementsLEFT.forEach((el) => observer.observe(el))
