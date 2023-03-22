@@ -276,7 +276,7 @@ body {
     background: rgba(34, 153, 84, 0.8);
     filter: blur(110px);
 }
-/* @property --rotate {
+@property --rotate {
     syntax: "<angle>";
     initial-value: 132deg;
     inherits: false;
@@ -293,6 +293,42 @@ body {
       left: -2%;
       animation: spin 3s linear infinite;
 }
+/* .circle-1::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  margin: 0 auto;
+  transform: scale(0.8);
+  background-image: linear-gradient(
+    var(--rotate)
+    , #46b976, #229954 43%, #229954);
+    opacity: 1;
+  transition: opacity .5s;
+  animation: spin 2.5s linear infinite;
+} */
+.circle-1::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    margin: 0 auto;
+    transform: scale(0.8);
+    background-image: linear-gradient(
+      var(--rotate)
+      , #78c598, #46b976 43%, #46b976);
+      opacity: 1;
+    transition: opacity .5s;
+    animation: spin 2.5s linear infinite;
+}
 @keyframes spin {
     0% {
         --rotate: 0deg;
@@ -301,8 +337,8 @@ body {
         --rotate: 360deg;
     }
 } 
-   */
-.circle-2 {
+  
+/* .circle-2 {
     position: absolute;
     width: 2200px;
     height: 1020px;
@@ -314,7 +350,7 @@ body {
 
     background: #82DEA8;
     filter: blur(110px);
-}
+} */
 .circle-3 {
     position: absolute;
     width: 2400.58px;
@@ -417,7 +453,8 @@ body {
 }
 .overview-main {
     position: absolute;
-    width: 1060px;
+    /* width: 1060px; */
+    width: 850px;
     height: 120px;
     left: 223px;
     top: 1330px;
@@ -425,7 +462,7 @@ body {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 100%;
     /* or 40px */
 
@@ -440,11 +477,12 @@ body {
     width: 860px;
     height: 145px;
     left: 224px;
-    top: 1505px;
+    top: 1475px;
 
     background: radial-gradient(100.02% 1984.43% at 0% 0%, rgba(255, 255, 255, 0.42) 0%, rgba(223, 223, 223, 0.6) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
     mix-blend-mode: normal;
     backdrop-filter: blur(2px);
+    /* transition: all 200ms ease; */
 }
 .white-cont p {
     width: 620px;
