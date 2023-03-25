@@ -286,14 +286,14 @@ body {
     width: 104%;
     height: 102%;
     border-radius: 50%;
-    background-image: linear-gradient(var(--rotate), #46b976, #229954, #229954);
+    background-image: linear-gradient(var(--rotate), #248b4f, #229954, #229954);
       position: absolute;
       z-index: -1;
       top: -1%;
       left: -2%;
       animation: spin 3s linear infinite;
 }
-.circle-1::after {
+.circle-2::after {
     position: absolute;
     content: "";
     left: 0;
@@ -306,7 +306,7 @@ body {
     transform: scale(0.8);
     background-image: linear-gradient(
       var(--rotate)
-      , #46b976, #229954 43%, #229954);
+      , #82DEA8, #73ca97 43%, #248b4f);
       opacity: 1;
     transition: opacity .5s;
     animation: spin 2.5s linear infinite;
