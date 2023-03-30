@@ -281,6 +281,7 @@ body {
     initial-value: 132deg;
     inherits: false;
 }
+/* 
 .circle-1::before {
     content: "";
     width: 104%;
@@ -292,6 +293,8 @@ body {
       top: -1%;
       left: -2%;
       animation: spin 3s linear infinite;
+    transform: translateZ(0);
+    will-change: transform;
 }
 .circle-2::after {
     position: absolute;
@@ -306,10 +309,11 @@ body {
     transform: scale(0.8);
     background-image: linear-gradient(
       var(--rotate)
-      , #82DEA8, #73ca97 43%, #248b4f);
+      , #82DEA8, #73ca97 43%, #6bb98c);
       opacity: 1;
     transition: opacity .5s;
     animation: spin 2.5s linear infinite;
+    transform: translateZ(0);
 }
 @keyframes spin {
     0% {
@@ -318,49 +322,14 @@ body {
     100% {
         --rotate: 360deg;
     }
-} 
-
-/* .card::before {
-    content: "";
-    width: 104%;
-    height: 102%;
-    border-radius: 8px;
-    background-image: linear-gradient(
-      var(--rotate)
-      , #5ddcff, #3c67e3 43%, #4e00c2);
-      position: absolute;
-      z-index: -1;
-      top: -1%;
-      left: -2%;
-      animation: spin 2.5s linear infinite;
-  }
-  
-.card::after {
-    position: absolute;
-    content: "";
-    top: calc(var(--card-height) / 6);
-    left: 0;
-    right: 0;
-    z-index: -1;
-    height: 100%;
-    width: 100%;
-    margin: 0 auto;
-    transform: scale(0.8);
-    filter: blur(calc(var(--card-height) / 6));
-    background-image: linear-gradient(
-      var(--rotate)
-      , #5ddcff, #3c67e3 43%, #4e00c2);
-      opacity: 1;
-    transition: opacity .5s;
-    animation: spin 2.5s linear infinite;
-} */
-  
+}  */
+ 
 .circle-2 {
     position: absolute;
     width: 2200px;
     height: 1020px;
     left: -166.53px;
-    top: 740px;
+    top: 730px;
     border-radius: 50%;
     z-index: -1;
 
