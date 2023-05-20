@@ -31,38 +31,43 @@ body {
 /* header section */
 .header-title-one {
     position: relative;
-}
-.header-title-one p {
-    position: absolute;
-    width: 98px;
-    height: 18px;
-    left: 30px;
-    top: 30px;
 
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 20px;
-    line-height: 90.02%;
+    p {
+        position: absolute;
+        width: 98px;
+        height: 18px;
+        left: 30px;
+        top: 30px;
     
-    letter-spacing: -0.045em;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 20px;
+        line-height: 90.02%;
+        
+        letter-spacing: -0.045em;
+    
+        color: #FFFFFF;
+    }
 
-    color: #FFFFFF;
+    h1 {
+        position: absolute;
+        width: 52px;
+        height: 18px;
+        left: 73px;
+        top: 30px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 90.02%;
+        letter-spacing: -0.045em;
+
+        color: #FFFFFF;
+    }
 }
-.header-title-one h1 {
-    position: absolute;
-    width: 52px;
-    height: 18px;
-    left: 73px;
-    top: 30px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 90.02%;
-    letter-spacing: -0.045em;
-    color: #FFFFFF;
-}
+
 .header-nav {
     font-family: 'Inter';
     font-style: normal;
@@ -281,7 +286,7 @@ body {
     initial-value: 132deg;
     inherits: false;
 }
-/* 
+ 
 .circle-1::before {
     content: "";
     width: 104%;
@@ -322,7 +327,7 @@ body {
     100% {
         --rotate: 360deg;
     }
-}  */
+}  
  
 .circle-2 {
     position: absolute;
