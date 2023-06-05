@@ -1,0 +1,473 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #0D0805;
+}
+
+/* animation on scroll */
+.hidden-fade {
+  opacity: 0;
+  filter: blur(10px);
+  transition: all 300ms ease;
+}
+
+.hidden-left {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-10%);
+  transition: all 300ms ease;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+  transform: translateX(0);
+}
+
+/* header section */
+.header-title-one {
+  position: relative;
+}
+
+.header-title-one p {
+  position: absolute;
+  width: 98px;
+  height: 18px;
+  left: 30px;
+  top: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 90.02%;
+  letter-spacing: -0.045em;
+  color: #FFFFFF;
+}
+
+.header-title-one h1 {
+  position: absolute;
+  width: 52px;
+  height: 18px;
+  left: 73px;
+  top: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 90.02%;
+  letter-spacing: -0.045em;
+  color: #FFFFFF;
+}
+
+.header-nav {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 90.02%;
+  letter-spacing: -0.005em;
+  color: #606055;
+  /* opacity: 0.85; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding-top: 40px;
+  cursor: pointer;
+}
+
+.header-nav > p {
+  transition: all 200ms ease;
+}
+
+.header-nav > p:hover {
+  color: #ffffff;
+}
+
+.line-one {
+  position: absolute;
+  height: 700px;
+  right: 30px;
+  top: 70px;
+  opacity: 0.1;
+  border-left: 1px solid rgb(255, 255, 255);
+}
+
+.line-two {
+  position: absolute;
+  width: 200px;
+  right: 30px;
+  top: 770px;
+  opacity: 0.1;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.line-three {
+  position: absolute;
+  width: 800px;
+  left: 223px;
+  top: 770px;
+  opacity: 0.1;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.line-four {
+  position: absolute;
+  height: 50px;
+  left: 223px;
+  top: 770px;
+  opacity: 0.1;
+  border-left: 1px solid #FFFFFF;
+}
+
+.line-five {
+  position: absolute;
+  height: 400px;
+  left: 30px;
+  top: 70px;
+  opacity: 0.1;
+  border-left: 1px solid #FFFFFF;
+}
+
+.line-six {
+  position: absolute;
+  height: 400px;
+  left: 30px;
+  top: 555px;
+  opacity: 0.1;
+  border-left: 1px solid #FFFFFF;
+}
+
+.header-TA p {
+  position: absolute;
+  width: 61px;
+  height: 10px;
+  left: 0px;
+  top: 505px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 90.02%;
+  /* identical to box height, or 11px */
+  letter-spacing: -0.045em;
+  color: #FFFFFF;
+  opacity: 0.4;
+  transform: rotate(-90deg);
+}
+
+.header-title-two {
+  color: #FFFFFF;
+}
+
+.title-two-top {
+  position: absolute;
+  width: 157px;
+  height: 18px;
+  left: 223px;
+  top: 378px;
+  font-family: "DM Serif Display";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 90.02%;
+  letter-spacing: -0.045em;
+  color: #FFFFFF;
+  opacity: 0.85;
+}
+
+.title-two-mid {
+  position: absolute;
+  width: 916px;
+  height: 168px;
+  left: 223px;
+  top: 416px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 84px;
+  line-height: 100%;
+  /* or 84px */
+  letter-spacing: -0.045em;
+  color: #FFFFFF;
+  opacity: 0.85;
+}
+
+.title-two-bot {
+  position: absolute;
+  width: 366px;
+  height: 42px;
+  left: 224px;
+  top: 604px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 12.5px;
+  line-height: 110%;
+  letter-spacing: 0.05em;
+  /* or 14px */
+  color: #FFFFFF;
+  opacity: 0.85;
+}
+
+.climate-policy {
+  cursor: pointer;
+}
+
+.climate-policy p {
+  position: absolute;
+  width: 101px;
+  height: 14px;
+  right: 44px;
+  top: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 90.02%;
+  /* or 14px */
+  letter-spacing: -0.045em;
+  color: #FFFFFF;
+  float: right;
+  opacity: 0.85;
+  transition: all 200ms ease;
+}
+
+.climate-policy i {
+  position: absolute;
+  color: #FFFFFF;
+  font-size: 25px;
+  right: 22px;
+  top: 25px;
+  opacity: 0.85;
+  transition: all 200ms ease;
+}
+
+.climate-policy:hover p {
+  color: #606055;
+}
+
+.climate-policy:hover .uil-angle-right {
+  right: 19px;
+  color: #606055;
+}
+
+/* gradient section */
+.circle-1 {
+  position: absolute;
+  width: 2200px;
+  height: 1020px;
+  left: -109.53px;
+  top: 450px;
+  border-radius: 50%;
+  z-index: -1;
+  background: rgba(34, 153, 84, 0.8);
+  filter: blur(110px);
+}
+
+@property --rotate {
+  syntax: "<angle>";
+  initial-value: 132deg;
+  inherits: false;
+}
+/* 
+.circle-1::before {
+    content: "";
+    width: 104%;
+    height: 102%;
+    border-radius: 50%;
+    background-image: linear-gradient(var(--rotate), #248b4f, #229954, #229954);
+      position: absolute;
+      z-index: -1;
+      top: -1%;
+      left: -2%;
+      animation: spin 3s linear infinite;
+    transform: translateZ(0);
+    will-change: transform;
+}
+.circle-2::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    margin: 0 auto;
+    transform: scale(0.8);
+    background-image: linear-gradient(
+      var(--rotate)
+      , #82DEA8, #73ca97 43%, #6bb98c);
+      opacity: 1;
+    transition: opacity .5s;
+    animation: spin 2.5s linear infinite;
+    transform: translateZ(0);
+}
+@keyframes spin {
+    0% {
+        --rotate: 0deg;
+    }
+    100% {
+        --rotate: 360deg;
+    }
+}  */
+.circle-2 {
+  position: absolute;
+  width: 2200px;
+  height: 1020px;
+  left: -166.53px;
+  top: 730px;
+  border-radius: 50%;
+  z-index: -1;
+  background: #82DEA8;
+  filter: blur(110px);
+}
+
+.circle-3 {
+  position: absolute;
+  width: 2400.58px;
+  height: 1020px;
+  left: -218.73px;
+  top: 810.37px;
+  border-radius: 50%;
+  background: #DFDFDF;
+  filter: blur(110px);
+  transform: rotate(3.5deg);
+}
+
+/* overview */
+.rectangle-overview {
+  position: absolute;
+  width: 2000px;
+  height: 1374px;
+  left: 0px;
+  top: 1344px;
+  background: #DFDFDF;
+}
+
+.overview-lines .line-one {
+  position: absolute;
+  height: 250px;
+  left: 223px;
+  top: 1000px;
+  opacity: 0.1;
+  border-left: 1px solid #0D0805;
+}
+
+.overview-lines .line-two {
+  position: absolute;
+  height: 250px;
+  left: 223px;
+  top: 1700px;
+  opacity: 0.1;
+  border-left: 1px solid #0D0805;
+}
+
+.overview-lines .line-one-small {
+  position: absolute;
+  width: 20px;
+  left: 1400px;
+  top: 1220px;
+  opacity: 0.4;
+  border-bottom: 1px solid #000000;
+}
+
+.overview-lines .line-two-small {
+  position: absolute;
+  height: 20px;
+  left: 1420px;
+  top: 1220px;
+  opacity: 0.4;
+  border-left: 1px solid #000000;
+}
+
+.overview-lines .line-three-small {
+  position: absolute;
+  width: 20px;
+  left: 1400px;
+  top: 1700px;
+  opacity: 0.4;
+  border-bottom: 1px solid #000000;
+}
+
+.overview-lines .line-four-small {
+  position: absolute;
+  height: 20px;
+  left: 1420px;
+  top: 1681px;
+  opacity: 0.4;
+  border-left: 1px solid #000000;
+}
+
+.top-1 {
+  position: absolute;
+  top: 1290px;
+  left: 223px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  color: rgba(96, 96, 85, 0.8);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.025em;
+}
+
+.fa-file {
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.overview-main {
+  position: absolute;
+  /* width: 1060px; */
+  width: 850px;
+  height: 120px;
+  left: 223px;
+  top: 1330px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  /* or 40px */
+  letter-spacing: -0.02em;
+  color: #000000;
+  opacity: 0.85;
+}
+
+.white-cont {
+  position: absolute;
+  width: 860px;
+  height: 145px;
+  left: 224px;
+  top: 1475px;
+  background: radial-gradient(100.02% 1984.43% at 0% 0%, rgba(255, 255, 255, 0.42) 0%, rgba(223, 223, 223, 0.6) 100%);
+  mix-blend-mode: normal;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  /* transition: all 200ms ease; */
+}
+
+.white-cont p {
+  width: 620px;
+  height: 85px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.5px;
+  line-height: 133.5%;
+  /* or 17px */
+  padding: 30px;
+  color: #000000;
+  opacity: 0.9;
+} /*# sourceMappingURL=main.css.map */
