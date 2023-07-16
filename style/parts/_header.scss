@@ -226,6 +226,10 @@ color: #606055;
 }
 
 /* gradient section */
+.circle__gradient {
+    display: flex;
+    flex-wrap: wrap;
+}
 .circle-1 {
 position: absolute;
 width: 2200px;
