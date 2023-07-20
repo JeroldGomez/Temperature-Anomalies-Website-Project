@@ -299,6 +299,11 @@ body {
 }
 
 /* gradient section */
+.circle__gradient {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .circle-1 {
   position: absolute;
   width: 2200px;
@@ -399,6 +404,7 @@ body {
   opacity: 0.1;
   border-left: 1px solid #0D0805;
 }
+
 .overview-lines .line-two {
   position: absolute;
   height: 250px;
@@ -406,6 +412,7 @@ body {
   top: 1700px;
   opacity: 0.1;
   border-left: 1px solid #0D0805;
+
   border-bottom: 1px solid transparent;
 }
 .overview-lines .line-three {
@@ -417,6 +424,8 @@ body {
   border-left: 1px solid #0D0805;
   border-bottom: 1px solid transparent;
 }
+
+
 .overview-lines .line-one-small {
   position: absolute;
   width: 20px;
@@ -425,6 +434,8 @@ body {
   opacity: 0.4;
   border-bottom: 1px solid #0D0805;
 }
+
+
 .overview-lines .line-two-small {
   position: absolute;
   height: 20px;
@@ -433,6 +444,8 @@ body {
   opacity: 0.4;
   border-left: 1px solid #0D0805;
 }
+
+
 .overview-lines .line-three-small {
   position: absolute;
   width: 20px;
@@ -441,6 +454,8 @@ body {
   opacity: 0.4;
   border-bottom: 1px solid #0D0805;
 }
+
+ 
 .overview-lines .line-four-small {
   position: absolute;
   height: 20px;
@@ -513,6 +528,7 @@ body {
   padding: 30px;
   color: #000000;
   opacity: 0.9;
+
 }
 
 .features-cont .features-h1 {
@@ -552,3 +568,4 @@ body {
   color: #000000;
   opacity: 0.9;
 }/*# sourceMappingURL=main.css.map */
+
