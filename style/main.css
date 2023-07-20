@@ -7,6 +7,7 @@
 
 body {
   background-color: #0D0805;
+  overflow-x: hidden;
 }
 
 /* animation on scroll */
@@ -34,7 +35,6 @@ body {
 .header-title-one {
   position: relative;
 }
-
 .header-title-one p {
   position: absolute;
   width: 98px;
@@ -49,7 +49,6 @@ body {
   letter-spacing: -0.045em;
   color: #FFFFFF;
 }
-
 .header-title-one h1 {
   position: absolute;
   width: 52px;
@@ -81,12 +80,10 @@ body {
   padding-top: 40px;
   cursor: pointer;
 }
-
-.header-nav > p {
+.header-nav p {
   transition: all 200ms ease;
 }
-
-.header-nav > p:hover {
+.header-nav p:hover {
   color: #ffffff;
 }
 
@@ -95,7 +92,7 @@ body {
   height: 700px;
   right: 30px;
   top: 70px;
-  opacity: 0.1;
+  opacity: 0.2;
   border-left: 1px solid rgb(255, 255, 255);
 }
 
@@ -104,7 +101,7 @@ body {
   width: 200px;
   right: 30px;
   top: 770px;
-  opacity: 0.1;
+  opacity: 0.2;
   border-bottom: 1px solid #FFFFFF;
 }
 
@@ -113,7 +110,7 @@ body {
   width: 800px;
   left: 223px;
   top: 770px;
-  opacity: 0.1;
+  opacity: 0.2;
   border-bottom: 1px solid #FFFFFF;
 }
 
@@ -122,7 +119,7 @@ body {
   height: 50px;
   left: 223px;
   top: 770px;
-  opacity: 0.1;
+  opacity: 0.2;
   border-left: 1px solid #FFFFFF;
 }
 
@@ -131,7 +128,7 @@ body {
   height: 400px;
   left: 30px;
   top: 70px;
-  opacity: 0.1;
+  opacity: 0.2;
   border-left: 1px solid #FFFFFF;
 }
 
@@ -140,11 +137,21 @@ body {
   height: 400px;
   left: 30px;
   top: 555px;
-  opacity: 0.1;
+  opacity: 0.2;
   border-left: 1px solid #FFFFFF;
 }
 
-.header-TA p {
+.line-seven {
+  position: absolute;
+  height: 400px;
+  left: 30px;
+  top: 1040px;
+  opacity: 0.2;
+  border-left: 1px solid #0D0805;
+  z-index: 1;
+}
+
+.header-TA .p1 {
   position: absolute;
   width: 61px;
   height: 10px;
@@ -160,6 +167,41 @@ body {
   color: #FFFFFF;
   opacity: 0.4;
   transform: rotate(-90deg);
+}
+.header-TA .p2 {
+  position: absolute;
+  width: 61px;
+  height: 10px;
+  left: 0px;
+  top: 990px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 90.02%;
+  /* identical to box height, or 11px */
+  letter-spacing: -0.045em;
+  color: #FFFFFF;
+  opacity: 0.4;
+  transform: rotate(-90deg);
+}
+.header-TA .p3 {
+  position: absolute;
+  width: 61px;
+  height: 10px;
+  left: 0px;
+  top: 1475px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 90.02%;
+  /* identical to box height, or 11px */
+  letter-spacing: -0.045em;
+  color: #0D0805;
+  opacity: 0.6;
+  transform: rotate(-90deg);
+  z-index: 1;
 }
 
 .header-title-two {
@@ -219,7 +261,6 @@ body {
 .climate-policy {
   cursor: pointer;
 }
-
 .climate-policy p {
   position: absolute;
   width: 101px;
@@ -238,7 +279,6 @@ body {
   opacity: 0.85;
   transition: all 200ms ease;
 }
-
 .climate-policy i {
   position: absolute;
   color: #FFFFFF;
@@ -340,4 +380,175 @@ body {
   background: #DFDFDF;
   filter: blur(110px);
   transform: rotate(3.5deg);
+}
+
+.rectangle-overview {
+  position: absolute;
+  width: 2000px;
+  height: 1374px;
+  left: 0px;
+  top: 1344px;
+  background: #DFDFDF;
+}
+
+.overview-lines .line-one {
+  position: absolute;
+  height: 250px;
+  left: 223px;
+  top: 1000px;
+  opacity: 0.1;
+  border-left: 1px solid #0D0805;
+}
+.overview-lines .line-two {
+  position: absolute;
+  height: 250px;
+  left: 223px;
+  top: 1700px;
+  opacity: 0.1;
+  border-left: 1px solid #0D0805;
+  border-bottom: 1px solid transparent;
+}
+.overview-lines .line-three {
+  position: absolute;
+  height: 400px;
+  left: 30px;
+  top: 1525px;
+  opacity: 0.1;
+  border-left: 1px solid #0D0805;
+  border-bottom: 1px solid transparent;
+}
+.overview-lines .line-one-small {
+  position: absolute;
+  width: 20px;
+  left: 1400px;
+  top: 1220px;
+  opacity: 0.4;
+  border-bottom: 1px solid #0D0805;
+}
+.overview-lines .line-two-small {
+  position: absolute;
+  height: 20px;
+  left: 1420px;
+  top: 1220px;
+  opacity: 0.4;
+  border-left: 1px solid #0D0805;
+}
+.overview-lines .line-three-small {
+  position: absolute;
+  width: 20px;
+  left: 1400px;
+  top: 1700px;
+  opacity: 0.4;
+  border-bottom: 1px solid #0D0805;
+}
+.overview-lines .line-four-small {
+  position: absolute;
+  height: 20px;
+  left: 1420px;
+  top: 1681px;
+  opacity: 0.4;
+  border-left: 1px solid #0D0805;
+}
+
+.top-1 {
+  position: absolute;
+  top: 1290px;
+  left: 223px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  color: rgba(96, 96, 85, 0.8);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.025em;
+}
+
+.fa-file {
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.overview-main {
+  position: absolute;
+  /* width: 1060px; */
+  width: 850px;
+  height: 120px;
+  left: 223px;
+  top: 1330px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  /* or 40px */
+  letter-spacing: -0.02em;
+  color: #000000;
+  opacity: 0.85;
+}
+
+.white-cont {
+  position: absolute;
+  width: 860px;
+  height: 145px;
+  left: 224px;
+  top: 1475px;
+  background: radial-gradient(100.02% 1984.43% at 0% 0%, rgba(255, 255, 255, 0.42) 0%, rgba(223, 223, 223, 0.6) 100%);
+  mix-blend-mode: normal;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  /* transition: all 200ms ease; */
+}
+.white-cont p {
+  width: 620px;
+  height: 85px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.5px;
+  line-height: 133.5%;
+  /* or 17px */
+  padding: 30px;
+  color: #000000;
+  opacity: 0.9;
+}
+
+.features-cont .features-h1 {
+  position: absolute;
+  /* width: 1060px; */
+  width: 850px;
+  height: 120px;
+  left: 223px;
+  top: 2020px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  /* or 40px */
+  letter-spacing: -0.02em;
+  color: #000000;
+  opacity: 0.85;
+}
+.features-cont .features-white-cont {
+  position: absolute;
+  width: 860px;
+  height: 49px;
+  left: 224px;
+  top: 2075px;
+  background: radial-gradient(100.02% 1984.43% at 0% 0%, rgba(255, 255, 255, 0.42) 0%, rgba(223, 223, 223, 0.6) 100%);
+  mix-blend-mode: normal;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+}
+.features-cont .features-white-cont p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.5px;
+  padding: 17px;
+  color: #000000;
+  opacity: 0.9;
 }/*# sourceMappingURL=main.css.map */

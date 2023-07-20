@@ -1,247 +1,296 @@
 /* header section */
 .header-title-one {
-position: relative;
-}
-.header-title-one p {
-position: absolute;
-width: 98px;
-height: 18px;
-left: 30px;
-top: 30px;
-font-family: "Inter";
-font-style: normal;
-font-weight: 200;
-font-size: 20px;
-line-height: 90.02%;
-letter-spacing: -0.045em;
-color: #FFFFFF;
-}
-
-.header-title-one h1 {
-position: absolute;
-width: 52px;
-height: 18px;
-left: 73px;
-top: 30px;
-font-family: "Inter";
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 90.02%;
-letter-spacing: -0.045em;
-color: #FFFFFF;
+    position: relative;
+    p {
+        position: absolute;
+        width: 98px;
+        height: 18px;
+        left: 30px;
+        top: 30px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 200;
+        font-size: 20px;
+        line-height: 90.02%;
+        letter-spacing: -0.045em;
+        color: #FFFFFF;
+    }
+    h1 {
+        position: absolute;
+        width: 52px;
+        height: 18px;
+        left: 73px;
+        top: 30px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 90.02%;
+        letter-spacing: -0.045em;
+        color: #FFFFFF;
+    }
 }
 
 .header-nav {
-font-family: "Inter";
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 90.02%;
-letter-spacing: -0.005em;
-color: #606055;
-/* opacity: 0.85; */
-display: flex;
-align-items: center;
-justify-content: center;
-gap: 25px;
-padding-top: 40px;
-cursor: pointer;
-}
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 90.02%;
+    letter-spacing: -0.005em;
+    color: #606055;
+    /* opacity: 0.85; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 40px;
+    cursor: pointer;
 
-.header-nav > p {
-transition: all 200ms ease;
-}
-
-.header-nav > p:hover {
-color: #ffffff;
+    p {
+        transition: all 200ms ease;
+    }
+    p:hover {
+        color: #ffffff;
+    }
 }
 
 .line-one {
-position: absolute;
-height: 700px;
-right: 30px;
-top: 70px;
-opacity: 0.1;
-border-left: 1px solid rgb(255, 255, 255);
+    position: absolute;
+    height: 700px;
+    right: 30px;
+    top: 70px;
+    opacity: 0.2;
+    border-left: 1px solid rgb(255, 255, 255);
 }
 
 .line-two {
-position: absolute;
-width: 200px;
-right: 30px;
-top: 770px;
-opacity: 0.1;
-border-bottom: 1px solid #FFFFFF;
+    position: absolute;
+    width: 200px;
+    right: 30px;
+    top: 770px;
+    opacity: 0.2;
+    border-bottom: 1px solid #FFFFFF;
 }
 
 .line-three {
-position: absolute;
-width: 800px;
-left: 223px;
-top: 770px;
-opacity: 0.1;
-border-bottom: 1px solid #FFFFFF;
+    position: absolute;
+    width: 800px;
+    left: 223px;
+    top: 770px;
+    opacity: 0.2;
+    border-bottom: 1px solid #FFFFFF;
 }
 
 .line-four {
-position: absolute;
-height: 50px;
-left: 223px;
-top: 770px;
-opacity: 0.1;
-border-left: 1px solid #FFFFFF;
+    position: absolute;
+    height: 50px;
+    left: 223px;
+    top: 770px;
+    opacity: 0.2;
+    border-left: 1px solid #FFFFFF;
 }
 
 .line-five {
-position: absolute;
-height: 400px;
-left: 30px;
-top: 70px;
-opacity: 0.1;
-border-left: 1px solid #FFFFFF;
+    position: absolute;
+    height: 400px;
+    left: 30px;
+    top: 70px;
+    opacity: 0.2;
+    border-left: 1px solid #FFFFFF;
 }
 
 .line-six {
-position: absolute;
-height: 400px;
-left: 30px;
-top: 555px;
-opacity: 0.1;
-border-left: 1px solid #FFFFFF;
+    position: absolute;
+    height: 400px;
+    left: 30px;
+    top: 555px;
+    opacity: 0.2;
+    border-left: 1px solid #FFFFFF;
 }
 
-.header-TA p {
-position: absolute;
-width: 61px;
-height: 10px;
-left: 0px;
-top: 505px;
-font-family: "Inter";
-font-style: normal;
-font-weight: 200;
-font-size: 12px;
-line-height: 90.02%;
-/* identical to box height, or 11px */
-letter-spacing: -0.045em;
-color: #FFFFFF;
-opacity: 0.4;
-transform: rotate(-90deg);
+.line-seven {
+    position: absolute;
+    height: 400px;
+    left: 30px;
+    top: 1040px;
+    opacity: 0.2;
+    border-left: 1px solid #0D0805;
+    // border-width: 50px;
+    // border-style: solid;
+    // border-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(131,130,148,1) 71%, rgba(255,255,255,1) 100%);
+    // border-image-slice: 0 0 0 1;
+    z-index: 1;
+}
+
+.header-TA {
+    // 435px - 50px
+    .p1 {
+        position: absolute;
+        width: 61px;
+        height: 10px;
+        left: 0px;
+        top: 505px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 200;
+        font-size: 12px;
+        line-height: 90.02%;
+        /* identical to box height, or 11px */
+        letter-spacing: -0.045em;
+        color: #FFFFFF;
+        opacity: 0.4;
+        transform: rotate(-90deg);
+    }
+    .p2 {
+        position: absolute;
+        width: 61px;
+        height: 10px;
+        left: 0px;
+        top: 990px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 200;
+        font-size: 12px;
+        line-height: 90.02%;
+        /* identical to box height, or 11px */
+        letter-spacing: -0.045em;
+        color: #FFFFFF;
+        opacity: 0.4;
+        transform: rotate(-90deg);
+    }
+    .p3 {
+        position: absolute;
+        width: 61px;
+        height: 10px;
+        left: 0px;
+        top: 1475px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 200;
+        font-size: 12px;
+        line-height: 90.02%;
+        /* identical to box height, or 11px */
+        letter-spacing: -0.045em;
+        color: #0D0805;
+        opacity: 0.6;
+        transform: rotate(-90deg);
+        z-index: 1;
+    }
 }
 
 .header-title-two {
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 .title-two-top {
-position: absolute;
-width: 157px;
-height: 18px;
-left: 223px;
-top: 378px;
-font-family: "DM Serif Display";
-font-style: italic;
-font-weight: 400;
-font-size: 20px;
-line-height: 90.02%;
-letter-spacing: -0.045em;
-color: #FFFFFF;
-opacity: 0.85;
+    position: absolute;
+    width: 157px;
+    height: 18px;
+    left: 223px;
+    top: 378px;
+    font-family: "DM Serif Display";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 90.02%;
+    letter-spacing: -0.045em;
+    color: #FFFFFF;
+    opacity: 0.85;
 }
 
 .title-two-mid {
-position: absolute;
-width: 916px;
-height: 168px;
-left: 223px;
-top: 416px;
-font-family: "Inter";
-font-style: normal;
-font-weight: 700;
-font-size: 84px;
-line-height: 100%;
-/* or 84px */
-letter-spacing: -0.045em;
-color: #FFFFFF;
-opacity: 0.85;
+    position: absolute;
+    width: 916px;
+    height: 168px;
+    left: 223px;
+    top: 416px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 100%;
+    /* or 84px */
+    letter-spacing: -0.045em;
+    color: #FFFFFF;
+    opacity: 0.85;
 }
 
 .title-two-bot {
-position: absolute;
-width: 366px;
-height: 42px;
-left: 224px;
-top: 604px;
-font-family: "Inter";
-font-style: normal;
-font-weight: 100;
-font-size: 12.5px;
-line-height: 110%;
-letter-spacing: 0.05em;
-/* or 14px */
-color: #FFFFFF;
-opacity: 0.85;
+    position: absolute;
+    width: 366px;
+    height: 42px;
+    left: 224px;
+    top: 604px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 12.5px;
+    line-height: 110%;
+    letter-spacing: 0.05em;
+    /* or 14px */
+    color: #FFFFFF;
+    opacity: 0.85;
 }
 
 .climate-policy {
-cursor: pointer;
-}
+    cursor: pointer;
 
-.climate-policy p {
-position: absolute;
-width: 101px;
-height: 14px;
-right: 44px;
-top: 30px;
-font-family: "Inter";
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 90.02%;
-/* or 14px */
-letter-spacing: -0.045em;
-color: #FFFFFF;
-float: right;
-opacity: 0.85;
-transition: all 200ms ease;
-}
-
-.climate-policy i {
-position: absolute;
-color: #FFFFFF;
-font-size: 25px;
-right: 22px;
-top: 25px;
-opacity: 0.85;
-transition: all 200ms ease;
+    p {
+        position: absolute;
+        width: 101px;
+        height: 14px;
+        right: 44px;
+        top: 30px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 90.02%;
+        /* or 14px */
+        letter-spacing: -0.045em;
+        color: #FFFFFF;
+        float: right;
+        opacity: 0.85;
+        transition: all 200ms ease;
+    }
+    i {
+        position: absolute;
+        color: #FFFFFF;
+        font-size: 25px;
+        right: 22px;
+        top: 25px;
+        opacity: 0.85;
+        transition: all 200ms ease;
+    }
 }
 
 .climate-policy:hover p {
-color: #606055;
+    color: #606055;
 }
 
 .climate-policy:hover .uil-angle-right {
-right: 19px;
-color: #606055;
+    right: 19px;
+    color: #606055;
 }
 
 /* gradient section */
 .circle-1 {
-position: absolute;
-width: 2200px;
-height: 1020px;
-left: -109.53px;
-top: 450px;
-border-radius: 50%;
-z-index: -1;
-background: rgba(34, 153, 84, 0.8);
-filter: blur(110px);
+    position: absolute;
+    width: 2200px;
+    height: 1020px;
+    left: -109.53px;
+    top: 450px;
+    border-radius: 50%;
+    z-index: -1;
+    background: rgba(34, 153, 84, 0.8);
+    filter: blur(110px);
 }
 
 @property --rotate {
-syntax: "<angle>";
-initial-value: 132deg;
-inherits: false;
+    syntax: "<angle>";
+    initial-value: 132deg;
+    inherits: false;
 }
 /* 
 .circle-1::before {
@@ -286,25 +335,25 @@ inherits: false;
     }
 }  */
 .circle-2 {
-position: absolute;
-width: 2200px;
-height: 1020px;
-left: -166.53px;
-top: 730px;
-border-radius: 50%;
-z-index: -1;
-background: #82DEA8;
-filter: blur(110px);
+    position: absolute;
+    width: 2200px;
+    height: 1020px;
+    left: -166.53px;
+    top: 730px;
+    border-radius: 50%;
+    z-index: -1;
+    background: #82DEA8;
+    filter: blur(110px);
 }
 
 .circle-3 {
-position: absolute;
-width: 2400.58px;
-height: 1020px;
-left: -218.73px;
-top: 810.37px;
-border-radius: 50%;
-background: #DFDFDF;
-filter: blur(110px);
-transform: rotate(3.5deg);
+    position: absolute;
+    width: 2400.58px;
+    height: 1020px;
+    left: -218.73px;
+    top: 810.37px;
+    border-radius: 50%;
+    background: #DFDFDF;
+    filter: blur(110px);
+    transform: rotate(3.5deg);
 }
