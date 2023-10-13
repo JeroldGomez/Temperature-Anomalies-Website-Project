@@ -7,4 +7,4 @@ The code in this repository is written only in HTML, CSS, and JavaScript and use
 ### Still work in progress
 
 ![pic1](https://github.com/JeroldGomez/Temperature-Anomalies-Website-Project/assets/106787297/c7aef867-5963-4580-ac40-11bd2ca6307f)
-![PIC2](https://github.com/JeroldGomez/Temperature-Anomalies-Website-Project/assets/106787297/2595a95d-55ef-484b-8535-81eb1223b5d5)
+![PIC3](https://github.com/JeroldGomez/Temperature-Anomalies-Website-Project/assets/106787297/ef54e8c3-dc18-4730-9bc4-5409c4de349f)
